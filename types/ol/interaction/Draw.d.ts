@@ -29,7 +29,7 @@ export type GeometryFunction = (p0: SketchCoordType, p1: SimpleGeometry, p2: Pro
  */
 export type LineCoordType = Coordinate[];
 export interface Options {
-    type: GeometryType;
+    type: string;
     clickTolerance?: number;
     features?: Collection<Feature<Geometry>>;
     source?: VectorSource<Geometry>;
